@@ -22,6 +22,7 @@ public class Home {
             @ApiResponse(code = 404, message = "400Error...")
     })
     public String home(){
+        
         return "hi";
     }
 }
